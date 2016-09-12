@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 13.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DecisionTree", "DecisionTree.vcxproj", "{3D4F8C16-B08B-4219-A9C4-229E75F3863E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D4F8C16-B08B-4219-A9C4-229E75F3863E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D4F8C16-B08B-4219-A9C4-229E75F3863E}.Debug|Win32.Build.0 = Debug|Win32
+		{3D4F8C16-B08B-4219-A9C4-229E75F3863E}.Release|Win32.ActiveCfg = Release|Win32
+		{3D4F8C16-B08B-4219-A9C4-229E75F3863E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
