@@ -15,29 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Vector2D.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MemoryTracker.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PerformanceTracker.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Timer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Trackable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MemoryPool.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DeanLibDefines.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="Vector2D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -56,5 +33,34 @@
     <ClCompile Include="MemoryPool.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CircularQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Vector2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DeanLibDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MemoryPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MemoryTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PerformanceTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Trackable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CircularQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "steering", "steering.vcxproj", "{07ED8114-0659-4424-9468-50DBBEA5882A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DB900E08-5331-46D6-B450-6775A2C7C856} = {DB900E08-5331-46D6-B450-6775A2C7C856}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeanLib", "..\..\DeanLib\DeanLib.vcxproj", "{DB900E08-5331-46D6-B450-6775A2C7C856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07ED8114-0659-4424-9468-50DBBEA5882A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{07ED8114-0659-4424-9468-50DBBEA5882A}.Debug|Win32.Build.0 = Debug|Win32
+		{07ED8114-0659-4424-9468-50DBBEA5882A}.Release|Win32.ActiveCfg = Release|Win32
+		{07ED8114-0659-4424-9468-50DBBEA5882A}.Release|Win32.Build.0 = Release|Win32
+		{DB900E08-5331-46D6-B450-6775A2C7C856}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB900E08-5331-46D6-B450-6775A2C7C856}.Debug|Win32.Build.0 = Debug|Win32
+		{DB900E08-5331-46D6-B450-6775A2C7C856}.Debug|Win32.Deploy.0 = Debug|Win32
+		{DB900E08-5331-46D6-B450-6775A2C7C856}.Release|Win32.ActiveCfg = Release|Win32
+		{DB900E08-5331-46D6-B450-6775A2C7C856}.Release|Win32.Build.0 = Release|Win32
+		{DB900E08-5331-46D6-B450-6775A2C7C856}.Release|Win32.Deploy.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8E67418-0AE9-47B4-9A6A-90BD13AC8665}
+	EndGlobalSection
+EndGlobal

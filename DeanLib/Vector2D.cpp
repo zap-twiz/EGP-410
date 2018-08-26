@@ -1,8 +1,6 @@
 #include "Vector2D.h"
 #include <cmath>
 
-Vector2D gZeroVector2D( 0.0f, 0.0f );
-
 Vector2D::Vector2D(float x, float y)
 :mX(x)
 ,mY(y)
@@ -12,6 +10,12 @@ Vector2D::Vector2D(float x, float y)
 Vector2D::Vector2D( const Vector2D& rhs )
 :mX( rhs.mX )
 ,mY( rhs.mY )
+{
+}
+
+Vector2D::Vector2D(int x, int y )
+	:mX((float)x)
+	,mY((float)y)
 {
 }
 
@@ -77,14 +81,14 @@ const Vector2D Vector2D::operator*(float mult) const
     return result;              
 }
 
-bool Vector2D::operator==( const Vector2D& rhs )
+bool Vector2D::operator==( const Vector2D& rhs ) const
 {
 	if ((getX() == rhs.getX()) && (getY() == rhs.getY()))
 		return true;
 	else return false;
 }
 
-bool Vector2D::operator!=( const Vector2D& rhs )
+bool Vector2D::operator!=( const Vector2D& rhs ) const
 {
 	if ((getX() == rhs.getX()) && (getY() == rhs.getY()))
 		return false;
