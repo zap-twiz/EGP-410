@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{2a9a97f2-6a21-47f9-8230-3bac4f46c396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files\Header Files">
+      <UniqueIdentifier>{0ddb3a59-f7e5-429e-a683-26b0c1eddf7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files\Source Files">
+      <UniqueIdentifier>{73e25bd1-fc52-4cc1-a7c4-f3885728d042}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GraphicsBuffer.cpp">
+      <Filter>Common Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GraphicsSystem.cpp">
+      <Filter>Common Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\Sprite.cpp">
+      <Filter>Common Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\Game.cpp">
+      <Filter>Common Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\Grid.cpp">
+      <Filter>Common Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GridVisualizer.cpp">
+      <Filter>Common Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\SpriteManager.cpp">
+      <Filter>Common Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\GraphicsBufferManager.cpp">
+      <Filter>Common Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\Color.cpp">
+      <Filter>Common Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\Font.cpp">
+      <Filter>Common Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\Renderer.cpp">
+      <Filter>Common Files\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\GraphicsBuffer.h">
+      <Filter>Common Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsSystem.h">
+      <Filter>Common Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Sprite.h">
+      <Filter>Common Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Game.h">
+      <Filter>Common Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Grid.h">
+      <Filter>Common Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GridVisualizer.h">
+      <Filter>Common Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\SpriteManager.h">
+      <Filter>Common Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GraphicsBufferManager.h">
+      <Filter>Common Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Defines.h">
+      <Filter>Common Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Color.h">
+      <Filter>Common Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Font.h">
+      <Filter>Common Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Renderer.h">
+      <Filter>Common Files\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
